@@ -1,0 +1,173 @@
+[
+  {
+    "label": "Query 1: Highest Average Groundwater Depth",
+    "query": "What is the highest average groundwater depth in Punjab?",
+    "detected_language": "en",
+    "engine": "Groq (openai/gpt-oss-20b) - Grounded Generation",
+    "intent": "analytics",
+    "has_figure": true,
+    "records_count": 5,
+    "sources": [
+      "gwl_manual_quarterly_cgwb_pb_1991_2020 (1).csv",
+      "gwl_manual_quarterly_cgwb_pb_2021_2025.csv"
+    ],
+    "answer_full": "The highest average groundwater depth recorded in Punjab is **26.10 mbgl** in the district of **Sangrur**.  \n\n- **Observations:** 1,465 valid measurements  \n- **Depth range:** –1.07 m to 268.00 m  \n- **Source datasets:** *gwl_manual_quarterly_cgwb_pb_1991_2020 (1).csv* and *gwl_manual_quarterly_cgwb_pb_2021_2025.csv*  \n\nThis value represents the most depleted average water table among all 22 districts in the CGWB Punjab dataset (36,934 total observations)."
+  },
+  {
+    "label": "Query 2: Lowest Average Groundwater Depth",
+    "query": "What is the lowest average groundwater depth in Punjab?",
+    "detected_language": "en",
+    "engine": "Groq (openai/gpt-oss-20b) - Grounded Generation",
+    "intent": "analytics",
+    "has_figure": true,
+    "records_count": 5,
+    "sources": [
+      "gwl_manual_quarterly_cgwb_pb_1991_2020 (1).csv",
+      "gwl_manual_quarterly_cgwb_pb_2021_2025.csv"
+    ],
+    "answer_full": "The lowest average groundwater depth recorded in Punjab is **2.92 mbgl** in the district of **Mukatsar**.  \n\n- **Observations:** 1,505 valid measurements  \n- **Depth range:** –1.84 m to 20.60 m  \n- **Source datasets:** *gwl_manual_quarterly_cgwb_pb_1991_2020 (1).csv* and *gwl_manual_quarterly_cgwb_pb_2021_2025.csv* (CGWB Punjab dataset, 36,934 total observations across 22 districts).  \n\nThis value represents the shallowest (best) groundwater table among all Punjab districts in the CGWB dataset."
+  },
+  {
+    "label": "Query 3: Average Groundwater Depth in Ludhiana",
+    "query": "What is the average groundwater depth in Ludhiana?",
+    "detected_language": "en",
+    "engine": "Groq (openai/gpt-oss-20b) - Grounded Generation",
+    "intent": "analytics",
+    "has_figure": true,
+    "records_count": 10,
+    "sources": [
+      "gwl_manual_quarterly_cgwb_pb_1991_2020 (1).csv",
+      "gwl_manual_quarterly_cgwb_pb_2021_2025.csv"
+    ],
+    "answer_full": "The average (mean) depth to the water table in Ludhiana district is **15.59 meters below ground level (mbgl)**.\n\n**Context & Source**\n\n- **Observation count:** 2,575 valid monitoring observations (1996‑2024).  \n- **Dataset(s):** `gwl_manual_quarterly_cgwb_pb_1991_2020 (1).csv` and `gwl_manual_quarterly_cgwb_pb_2021_2025.csv`.  \n- **Historical range:** 1996 baseline 8.98 mbgl → 2024 recent 19.88 mbgl (net change +10.90 mbgl).  \n- **Depletion rank:** 9th deepest among 22 Punjab districts.  \n- **Statewide weighted mean:** 13.47 mbgl.\n\nThese figures are taken directly from the Central Ground Water Board (CGWB) records for Punjab."
+  },
+  {
+    "label": "Query 4: Historical Groundwater Trend for Punjab",
+    "query": "What is the historical groundwater trend for Punjab?",
+    "detected_language": "en",
+    "engine": "Groq (openai/gpt-oss-20b) - Grounded Generation",
+    "intent": "analytics",
+    "has_figure": true,
+    "records_count": 29,
+    "sources": [
+      "gwl_manual_quarterly_cgwb_pb_1991_2020 (1).csv",
+      "gwl_manual_quarterly_cgwb_pb_2021_2025.csv"
+    ],
+    "answer_full": "**Historical Groundwater Trend in Punjab (1996 – 2024)**  \n\n| Year | Average Depth (mbgl) | Observations |\n|------|----------------------|--------------|\n| 1996 | 8.01 | 1,358 |\n| 1997 | 7.84 | 1,285 |\n| 1998 | 7.11 | 1,341 |\n| 1999 | 7.29 | 1,269 |\n| 2000 | 7.68 | 1,078 |\n| 2001 | 8.06 | 1,069 |\n| 2002 | 9.19 | 974 |\n| 2003 | 9.51 | 926 |\n| 2004 | 9.77 | 884 |\n| 2005 | 9.88 | 791 |\n| 2006 | 10.10 | 728 |\n| 2007 | 10.77 | 761 |\n| 2008 | 11.07 | 730 |\n| 2009 | 11.75 | 762 |\n| 2010 | 11.65 | 728 |\n| 2011 | 11.54 | 699 |\n| 2012 | 13.45 | 736 |\n| 2013 | 14.79 | 1,401 |\n| 2014 | 14.53 | 2,505 |\n| 2015 | 15.14 | 2,351 |\n| 2016 | 16.06 | 1,545 |\n| 2017 | 16.62 | 2,160 |\n| 2018 | 17.55 | 3,745 |\n| 2019 | 16.81 | 1,805 |\n| 2020 | 16.96 | 847 |\n| 2021 | 16.52 | 749 |\n| 2022 | 18.86 | 2,019 |\n| 2023 | 19.95 | 1,394 |\n| 2024 | 18.41 | 294 |\n\n**Key Findings**\n\n- **Net Deepening:** The average groundwater depth increased from **8.01 mbgl in 1996** to **18.41 mbgl in 2024**, a net rise of **+10.40 m** over 29 observation years.  \n- **Trend Pattern:** The depth rose steadily from the late 1990s through the 2010s, with a pronounced acceleration after 2014, peaking at **19.95 mbgl in 2023"
+  },
+  {
+    "label": "Query 5: Punjab Yearly Trend (Hinglish)",
+    "query": "Punjab ka yearly groundwater trend batao",
+    "detected_language": "hinglish",
+    "engine": "Groq (openai/gpt-oss-20b) - Grounded Generation",
+    "intent": "analytics",
+    "has_figure": true,
+    "records_count": 29,
+    "sources": [
+      "gwl_manual_quarterly_cgwb_pb_1991_2020 (1).csv",
+      "gwl_manual_quarterly_cgwb_pb_2021_2025.csv"
+    ],
+    "answer_full": "**Punjab ka yearly groundwater trend (1996‑2024)**  \n\n| Saal | Avg. Depth (mbgl) | Observations |\n|------|-------------------|--------------|\n| 1996 | 8.01 | 1,358 |\n| 1997 | 7.84 | 1,285 |\n| 1998 | 7.11 | 1,341 |\n| 1999 | 7.29 | 1,269 |\n| 2000 | 7.68 | 1,078 |\n| 2001 | 8.06 | 1,069 |\n| 2002 | 9.19 | 974 |\n| 2003 | 9.51 | 926 |\n| 2004 | 9.77 | 884 |\n| 2005 | 9.88 | 791 |\n| 2006 | 10.10 | 728 |\n| 2007 | 10.77 | 761 |\n| 2008 | 11.07 | 730 |\n| 2009 | 11.75 | 762 |\n| 2010 | 11.65 | 728 |\n| 2011 | 11.54 | 699 |\n| 2012 | 13.45 | 736 |\n| 2013 | 14.79 | 1,401 |\n| 2014 | 14.53 | 2,505 |\n| 2015 | 15.14 | 2,351 |\n| 2016 | 16.06 | 1,545 |\n| 2017 | 16.62 | 2,160 |\n| 2018 | 17.55 | 3,745 |\n| 2019 | 16.81 | 1,805 |\n| 2020 | 16.96 | 847 |\n| 2021 | 16.52 | 749 |\n| 2022 | 18.86 | 2,019 |\n| 2023 | 19.95 | 1,394 |\n| 2024 | 18.41 | 294 |\n\n**Trend ka saar:**\n\n- **1996‑2000:** Groundwater table relatively shallow (≈8‑8.1 mbgl) aur thoda sa rise‑fall.\n- **2001‑2011:** Dheere‑dheere deepening, 2001 se 2011 tak average 11–12 mbgl tak jaa raha hai.\n- **2012‑2018:** Sabse tez deepening, 2018 mein 17.55 mbgl pe pahunch gaya. 2014‑2018 ke beech observation count bhi sabse zyada (2,505‑3,745).\n- **2019‑2024:** 2019 se 2024 tak thoda fluctuation, lekin overall trend deepening hi hai. 202"
+  },
+  {
+    "label": "Query 6: Punjab Conditions in Hindi",
+    "query": "Explain Punjab groundwater conditions in Hindi",
+    "detected_language": "hi",
+    "engine": "Verified Local Analytics (Groq API Error: None)",
+    "intent": "search",
+    "has_figure": false,
+    "records_count": 6,
+    "sources": [
+      "CGWB Manual Quarterly Groundwater Dataset (Punjab: 1996-2024 observations)",
+      "CGWB Station Monitoring Network (Punjab)"
+    ],
+    "answer_full": "### 💧 भूजल निष्कर्ष (CGWB पंजाब डेटासेट)\n\nआधिकारिक केंद्रीय भूजल बोर्ड (CGWB) डेटासेट रिकॉर्ड के आधार पर आपके प्रश्न का उत्तर:\n\nRELEVANT MONITORING STATIONS:\n- District: KAPURTHALA | Station: Punjab KAPURTHALA DHILWAN Bholath S | Average Depth: 10.93 mbgl | Range: 10.77m to 11.09m | Total Observations: 2\n- District: KAPURTHALA | Station: Punjab KAPURTHALA DHILWAN Bholath M | Average Depth: 11.48 mbgl | Range: 11.09m to 11.88m | Total Observations: 2\n- District: KAPURTHALA | Station: Punjab KAPURTHALA DHILWAN Bholath D | Average Depth: 11.08 mbgl | Range: 10.5m to 11.87m | Total Observations: 3\n- District: BATHINDA | Station: Bahman Jassa Singh-Pz | Tehsil: TALWANDI SABO | Block: TALWANDI SABO | Village: Bahman Jassa Singh | Average Depth: 11.54 mbgl | Range: 11.45m to 11.65m | Total Observations: 4\n- District: BATHINDA | Station: Bahman Kaur Singh-Pz | Tehsil: TALWANDI SABO | Block: TALWANDI SABO | Village: Bahman Kaur Singh | Average Depth: 9.34 mbgl | Range: 6.33m to 10.25m | Total Observations: 15\n- District: BATHINDA | Station: Bagher Mohabat Singh-Pz | Tehsil: TALWANDI SABO | Block: MAUR | Village: Bagher Mohabat Singh | Average Depth: 9.4 mbgl | Range: 8.21m to 12.34m | Total Observations: 15\n\n*(नोट: भूजल स्तर **मीटर नीचे (mbgl - meters below ground level)** में मापा जाता है। अधिक मान अधिक गहराई / कमी को दर्शाता है। ऋणात्मक मान (-mbgl) आर्टेशियन स्थितियों या जलभराव को दर्शाते हैं जहां जल स्तर जमीन से ऊपर होता है। सत्यापित अवलोकन 1996 से 2024 तक के हैं)।*"
+  },
+  {
+    "label": "Query 7: Compare Trends in Ludhiana & Patiala",
+    "query": "Compare groundwater trends in Ludhiana and Patiala",
+    "detected_language": "en",
+    "engine": "Groq (openai/gpt-oss-20b) - Grounded Generation",
+    "intent": "analytics",
+    "has_figure": true,
+    "records_count": 2,
+    "sources": [
+      "gwl_manual_quarterly_cgwb_pb_1991_2020 (1).csv",
+      "gwl_manual_quarterly_cgwb_pb_2021_2025.csv"
+    ],
+    "answer_full": "**Groundwater Trend Comparison – Ludhiana vs. Patiala (Punjab, India)**  \n\n| Metric | Ludhiana | Patiala |\n|--------|----------|---------|\n| **Average depth (mbgl)** | 15.59 m | 21.01 m |\n| **Observation count** | 2,575 | 2,217 |\n| **Depth range** | 0.40 m – 84.00 m | 0.30 m – 131.00 m |\n| **Net change 1996 → 2024** | +10.90 m (depleted/deepened) | +24.02 m (depleted/deepened) |\n| **Rate delta (Patiala – Ludhiana)** | – | +13.11 m |\n\n**Key Findings**\n\n1. **Overall Depth** – Patiala’s groundwater table is on average 5.42 m deeper than Ludhiana’s (21.01 m vs. 15.59 m).  \n2. **Historical Decline** – Over the 1996–2024 observation window, Patiala experienced a larger decline of 24.02 m compared with Ludhiana’s 10.90 m, indicating a more pronounced depletion trend in Patiala.  \n3. **Observation Coverage** – Data for both districts are robust, with 2,575 observations for Ludhiana and 2,217 for Patiala, sourced from the CGWB quarterly groundwater level datasets (`gwl_manual_quarterly_cgwb_pb_1991_2020 (1).csv` and `gwl_manual_quarterly_cgwb_pb_2021_2025.csv`).  \n\n**Conclusion**  \nPatiala’s groundwater resources have declined more rapidly and are currently deeper than those in Ludhiana. The trend suggests a greater pressure on Patiala’s aquifers, warranting closer monitoring and potential management interventions."
+  },
+  {
+    "label": "Query 8: Village Hussainpura Status",
+    "query": "What is the groundwater condition in village Hussainpura?",
+    "detected_language": "en",
+    "engine": "Groq (openai/gpt-oss-20b) - Village Analytics",
+    "intent": "village_analytics",
+    "has_figure": true,
+    "records_count": 15,
+    "sources": [
+      "gwl_manual_quarterly_cgwb_pb_1991_2020 (1).csv",
+      "gwl_manual_quarterly_cgwb_pb_2021_2025.csv",
+      "CGWB Station Monitoring Network (Punjab)"
+    ],
+    "answer_full": "**Groundwater condition in Hussainpura (Kapurthala district)**  \n\n- **Observation count:** 140 valid monitoring observations (CGWB 1991–2025 series).  \n- **Current average water‑table depth (2024):** 22.34 m mbgl.  \n- **Overall mean depth (1996‑2024):** 23.11 m mbgl.  \n- **Depth range:** 15.98 m mbgl (shallowest) – 29.25 m mbgl (deepest).  \n- **Trend (2014 → 2024):** The average depth increased from 19.58 m mbgl in 2014 to 22.34 m mbgl in 2024, a net deepening of +2.76 m, indicating progressive depletion of the groundwater table.  \n\n**Interpretation**  \nThe water table in Hussainpura is currently deeper than in 2014, reflecting a gradual decline in groundwater availability. The monitoring network (four piezometers: Hussainpura‑D, -M, -S, -VS) provides consistent data across the village, confirming the observed trend."
+  },
+  {
+    "label": "Query 9: Nitrate Concentration in Punjab",
+    "query": "What is the nitrate concentration in Punjab?",
+    "detected_language": "en",
+    "engine": "Hydrogeological Quality Knowledge Base (Verified BIS Standards)",
+    "intent": "water_quality",
+    "has_figure": false,
+    "records_count": 4,
+    "sources": [
+      "CGWB Ground Water Quality Yearbooks (Ministry of Jal Shakti, Government of India)",
+      "Bureau of Indian Standards (BIS: IS 10500:2012 Drinking Water Specification)",
+      "Central Ground Water Board (CGWB) Punjab Monitoring Network"
+    ],
+    "answer_full": "### 🧪 Groundwater Quality & Nitrate ($NO_3^-$) Concentration in Punjab\n\n⚠️ **Dataset Scope & Boundary Clarification:**\nThe active Central Ground Water Board (CGWB) manual quarterly monitoring CSV dataset powering this system records **physical depth to water table** (measured in meters below ground level - mbgl) across 22 canonical districts. It **does not contain chemical water quality observations** (such as nitrate, arsenic, fluoride, pH, or heavy metals).\n\n**Hydrogeological Context & Scientific Facts for Punjab:**\n1. **Agrochemical Leaching Origin:** High nitrate concentrations in Punjab's groundwater originate primarily from intensive agricultural practices. Punjab has among the highest per-hectare chemical fertilizer application rates in India; excess synthetic nitrogen fertilizers (urea and DAP) applied during intensive wheat-paddy crop rotations dissolve and leach through permeable alluvial soils into shallow unconfined aquifers.\n2. **Regulatory Permissible Limit:** Under the Bureau of Indian Standards drinking water specification (**BIS: IS 10500:2012**) and WHO guidelines, the maximum acceptable limit for nitrate ($NO_3^-$) in drinking water is **45 mg/L**.\n3. **Geographical Distribution in Punjab:** According to specialized CGWB Ground Water Quality Yearbooks, shallow aquifer samples exceeding the 45 mg/L BIS limit have been documented across several central and southwestern districts, including **Bathinda, Mansa, Sangrur, Barnala, and Patiala**.\n4. **Health Hazards:** Ingesting groundwater with nitrate concentrations above 45 mg/L can induce infantile methemoglobinemia (*'blue baby syndrome'*), impair thyroid function, and present chronic health hazards.\n5. **Authoritative Quality Reports:** For complete laboratory-tested water quality monitoring tables, consult the official **CGWB Ground Water Quality in Shallow Aquifers of India / Punjab State Water Quality Yearbooks** published by the Ministry of Jal Shakti."
+  },
+  {
+    "label": "Query 10: Difference Between Depth and Quality",
+    "query": "Explain the difference between groundwater depth and groundwater quality",
+    "detected_language": "en",
+    "engine": "Hydrogeological Domain Knowledge (Depth vs Quality Framework)",
+    "intent": "quality_vs_depth",
+    "has_figure": false,
+    "records_count": 6,
+    "sources": [
+      "Central Ground Water Board (CGWB) Punjab Monitoring Network",
+      "Bureau of Indian Standards (BIS: IS 10500:2012 Drinking Water Specification)",
+      "CGWB Hydrogeological Terminology Guidelines"
+    ],
+    "answer_full": "### 🔍 Difference Between Groundwater Depth and Groundwater Quality\n\nIn hydrogeology and water resources engineering, **Groundwater Depth** and **Groundwater Quality** represent two distinct physical and chemical domains:\n\n| Aspect / Dimension | Groundwater Depth | Groundwater Quality |\n|---|---|---|\n| **Core Concept** | Vertical distance from the ground surface down to the water table (top of saturated zone). | Chemical, physical, and microbiological composition and potability of the water. |\n| **Standard Unit** | **mbgl** (meters below ground level) or meters ($m$). | **mg/L** (milligrams per liter), ppm, pH scale, or $\\mu S/cm$. |\n| **Measurement Method** | Electric contact water level sounder, steel graduated tape, or acoustic/pressure piezometers. | Laboratory analytical testing (Spectrophotometry, Ion Chromatography, ICP-MS). |\n| **Practical Implication** | Pumping lift requirements, energy costs, and aquifer storage depletion. | Human drinking safety, toxicity, infant health risks, and agricultural soil salinity. |\n| **Status in this Dataset** | **AVAILABLE**: 36,934 valid records across 22 canonical Punjab districts (1996–2024). | **NOT IN THIS CSV**: This manual quarterly monitoring dataset records physical depth only. |\n\n📌 **Hydrogeological Relationship:**\n- A district with a deep water table (e.g., Sangrur at 26.10 mbgl) reflects severe volumetric depletion due to over-extraction.\n- Conversely, shallow water tables (e.g., Mukatsar at 2.92 mbgl) can experience waterlogging, secondary soil salinization, or elevated surface contaminant infiltration.\n- Authoritative chemical quality data is published separately in the **CGWB Ground Water Quality Yearbooks** by the Ministry of Jal Shakti."
+  },
+  {
+    "label": "Query 11: District-wise Groundwater Ranking",
+    "query": "District-wise groundwater ranking in Punjab",
+    "detected_language": "en",
+    "engine": "Groq (openai/gpt-oss-20b) - Grounded Generation",
+    "intent": "analytics",
+    "has_figure": true,
+    "records_count": 5,
+    "sources": [
+      "gwl_manual_quarterly_cgwb_pb_1991_2020 (1).csv",
+      "gwl_manual_quarterly_cgwb_pb_2021_2025.csv"
+    ],
+    "answer_full": "**District‑wise Groundwater Depth Ranking – Punjab (1996 – 2024)**  \n\n| Rank | District | Average Depth (mbgl) | Observations | Min Depth (mbgl) | Max Depth (mbgl) | Source Dataset |\n|------|----------|----------------------|--------------|------------------|------------------|----------------|\n| 1 | **SANGRUR** | **26.10** | 1,465 | –1.07 | 268.00 | *gwl_manual_quarterly_cgwb_pb_1991_2020 (1).csv*, *gwl_manual_quarterly_cgwb_pb_2021_2025.csv* |\n| 2 | **BARNALA** | 23.03 | 811 | –0.01 | 100.00 | *gwl_manual_quarterly_cgwb_pb_1991_2020 (1).csv*, *gwl_manual_quarterly_cgwb_pb_2021_2025.csv* |\n| 3 | **JALANDHAR** | 21.30 | 2,509 | 1.53 | 250.00 | *gwl_manual_quarterly_cgwb_pb_1991_2020 (1).csv*, *gwl_manual_quarterly_cgwb_pb_2021_2025.csv* |\n| 4 | **PATIALA** | 21.01 | 2,217 | 0.30 | 131.00 | *gwl_manual_quarterly_cgwb_pb_1991_2020 (1).csv*, *gwl_manual_quarterly_cgwb_pb_2021_2025.csv* |\n| 5 | **MOGA** | 19.38"
+  },
+  {
+    "label": "Query 12: Groundwater Trend Over Available Years",
+    "query": "Groundwater trend over available years in Punjab",
+    "detected_language": "en",
+    "engine": "Groq (openai/gpt-oss-20b) - Grounded Generation",
+    "intent": "analytics",
+    "has_figure": true,
+    "records_count": 29,
+    "sources": [
+      "gwl_manual_quarterly_cgwb_pb_1991_2020 (1).csv",
+      "gwl_manual_quarterly_cgwb_pb_2021_2025.csv"
+    ],
+    "answer_full": "**Groundwater Trend in Punjab (1996 – 2024)**  \n\n| Year | Average Depth (mbgl) | Observations |\n|------|----------------------|--------------|\n| 1996 | 8.01 | 1,358 |\n| 1997 | 7.84 | 1,285 |\n| 1998 | 7.11 | 1,341 |\n| 1999 | 7.29 | 1,269 |\n| 2000 | 7.68 | 1,078 |\n| 2001 | 8.06 | 1,069 |\n| 2002 | 9.19 | 974 |\n| 2003 | 9.51 | 926 |\n| 2004 | 9.77 | 884 |\n| 2005 | 9.88 | 791 |\n| 2006 | 10.10 | 728 |\n| 2007 | 10.77 | 761 |\n| 2008 | 11.07 | 730 |\n| 2009 | 11.75 | 762 |\n| 2010 | 11.65 | 728 |\n| 2011 | 11.54 | 699 |\n| 2012 | 13.45 | 736 |\n| 2013 | 14.79 | 1,401 |\n| 2014 | 14.53 | 2,505 |\n| 2015 | 15.14 | 2,351 |\n| 2016 | 16.06 | 1,545 |\n| 2017 | 16.62 | 2,160 |\n| 2018 | 17.55 | 3,745 |\n| 2019 | 16.81 | 1,805 |\n| 2020 | 16.96 | 847 |\n| 2021 | 16.52 | 749 |\n| 2022 | 18.86 | 2,019 |\n| 2023 | 19.95 | 1,394 |\n| 2024 | 18.41 | 294 |\n\n**Key observations**\n\n1. **Overall deepening** – The average groundwater depth increased from **8.01 mbgl in 1996** to **18.41 mbgl in 2024**, a net rise of **+10.40 m** (water table decline).  \n2. **Steady rise until 2018** – Depths rose gradually each year, reaching a peak of **19.95 mbgl in 2023**.  \n3. **Recent slight decline** – In 2024 the average depth"
+  }
+]
